@@ -1,4 +1,4 @@
-#returns all objects in an image
+#returns all objects in an image using Google Cloud Vision API
 def start_img(img):
 
 #gets the list of images that need to be removed
