@@ -1,2 +1,2 @@
-# Logo-ID
-Identify Given Logos in an Image
+# Main
+Identifying and Replacing Given Objects in an Image
