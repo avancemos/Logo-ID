@@ -3,8 +3,8 @@ Identifying and Replacing Given Objects in an Image
 
 ## Dependencies
 
-Some Kind of Android Simulator, we use Genymotion: https://www.genymotion.com/
-Ability to use Google Cloud Vision API. They offer a free trial, but you have to have a mail address and there are a bunch of other restrictions :disappointed_relieved: : https://cloud.google.com/vision/
+1. Some Kind of Android Simulator, we use Genymotion: https://www.genymotion.com/
+2. Ability to use Google Cloud Vision API. They offer a free trial, but you have to have a mail address and there are a bunch of other restrictions :disappointed_relieved: : https://cloud.google.com/vision/
 
 ## Getting started
 
