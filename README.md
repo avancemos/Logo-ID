@@ -13,7 +13,7 @@ Identifying and Replacing Given Objects in an Image
 
     git clone git@github.com:avancemos/main.git
 
-### Download and setup an android mulator for your platform
+### Download and setup an android emulator for your platform
 
 Since we used Genymotion, well show you how to set it up
 
