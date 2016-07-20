@@ -5,7 +5,7 @@ Identifying and Replacing Given Objects in an Image
 
 1. Some Kind of Android Simulator, we use [Genymotion](https://www.genymotion.com/)
   * Note: On macOS, you must install [Virtualbox](http://virtualbox.org)
-2. Ability to use [Google Cloud Vision API](https://cloud.google.com/vision/). They offer a free trial, but you have to have a mail address and there are a bunch of other restrictions :disappointed_relieved:
+2. Ability to use [Google Cloud Vision API](https://cloud.google.com/vision/). They offer a free trial and have a free option for personal use, but you have to have a mail address and there are a bunch of other restrictions :disappointed_relieved:
 
 ## Getting started
 
@@ -34,6 +34,16 @@ Since we used Genymotion, well show you how to set it up
 2. On Genymotion, this can be done by dragging the `apk/Snapseed-VX.X.X.apk` file into the open VM
 3. This will take a little while, depending on the specs of your machine, but the app will install.
   * Note: you may have to reboot your VM 
+
+### Setup Google Cloud Vision API with you account
+
+Still working on how to get this to work for people other than me
+
+### Selecting image and Sub-image
+
+When selecting your image and sub-image, there are a few things to keep in mind:
+ 1. You should pick an image where the subimage is clearly visiable and is not obscured
+ 2. The subimage should be somthing that is able to be recognized by Google Cloud Vision
 
 
 ### **Note that this is not yet finished**
