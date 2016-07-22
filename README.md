@@ -5,7 +5,8 @@ Identifying and Replacing Given Objects in an Image
 
 1. Some Kind of Android Simulator, we use [Genymotion](https://www.genymotion.com/)
   * Note: On macOS, you must install [Virtualbox](http://virtualbox.org)
-2. Ability to use [Google Cloud Vision API](https://cloud.google.com/vision/). They offer a free trial and have a free option for personal use, but you have to have a mail address and there are a bunch of other restrictions :disappointed_relieved:
+2. [Android Studio](https://developer.android.com/studio/index.html) (Or at least just the ADK)
+3. Ability to use [Google Cloud Vision API](https://cloud.google.com/vision/). They offer a free trial and have a free option for personal use, but you have to have a mail address and there are a bunch of other restrictions :disappointed_relieved:
 
 ## Getting started
 
@@ -26,7 +27,7 @@ Since we used Genymotion, well show you how to set it up
 5. Select the device and hit `next`. Read over all the information on the screen, name the device, and hit next. 
 6. Genymotion will download all the require files. Depending on your internet speed this might take a while
 7. Once done, select the new device from the menu and hit `run` or `ctrl+l`
-8. The simulation should launch and you should be all set.
+8. The simulation should launch
 
 ### Install the Snapseed APK on the VM
 
@@ -34,6 +35,15 @@ Since we used Genymotion, well show you how to set it up
 2. On Genymotion, this can be done by dragging the `apk/Snapseed-VX.X.X.apk` file into the open VM
 3. This will take a little while, depending on the specs of your machine, but the app will install.
   * Note: you may have to reboot your VM 
+
+### Set up ADB
+1. Go into the settings on the VM
+2. Scroll down to the `about phone`
+3. Scroll down to `build number`
+4. Tab build number about 10
+5. There will be a message saying that you have enabled developer options
+5. Go back to the settings page and you will see the developeroptions menu
+6. Open the developer options, and enable `USB debugging`
 
 ### Setup Google Cloud Vision API with you account
 
