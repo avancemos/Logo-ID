@@ -29,6 +29,14 @@ Since we used Genymotion, well show you how to set it up
 7. Once done, select the new device from the menu and hit `run` or `ctrl+l`
 8. The simulation should launch
 
+### Install and Set Up Android Studio
+
+1. Download [Android Stuidio](https://developer.android.com/studio/index.html)
+2. Complete the install process for your platform
+3. On Genymotion, go to `Settings -> ADB` and check `Use custom Android SDK tools`
+4. Then provide in the box below the location of the `ADK`/`Android SDK`
+  * On macOS/Linux the path should look something like `/Users/user_name/Library/Android/sdk`
+
 ### Install the Snapseed APK on the VM
 
 1. The APK is located in the repo under `apk/Snapseed-VX.X.X.apk`
