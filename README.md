@@ -52,6 +52,22 @@ Since we used Genymotion, well show you how to set it up
 5. There will be a message saying that you have enabled developer options
 5. Go back to the settings page and you will see the developeroptions menu
 6. Open the developer options, and enable `USB debugging`
+7. Install adb and fastboot into the `scripts` folder
+
+
+    sudo apt-get install unzip
+    unzip Android.zip -d /PATH/TO/main/scripts/
+
+On macOS
+
+    ./PATH/TO/main/scripts/ADB-Install-Linux.sh
+    mv /PATH/TO/main/scripts/Android/Mac/* /PATH/TO/main/scripts/
+
+On Linux
+
+    ./PATH/TO/main/scripts/ADB-Install-Mac.sh
+    mv /PATH/TO/main/scripts/Android/Mac/* /PATH/TO/main/scripts/
+
 
 ### Setup Google Cloud Vision API with you account
 
