@@ -54,7 +54,7 @@ Since we used Genymotion, well show you how to set it up
 6. Open the developer options, and enable `USB debugging`
 7. Install adb and fastboot into the `scripts` folder
 
-Run in terminal
+Run in terminal on macOS and Linux
 
     sudo apt-get install unzip
     unzip Android.zip -d /PATH/TO/main/scripts/
