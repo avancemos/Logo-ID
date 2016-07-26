@@ -34,7 +34,7 @@ Since we used Genymotion, well show you how to set it up
 1. Download [Android Stuidio](https://developer.android.com/studio/index.html)
 2. Complete the install process for your platform
 3. On Genymotion, go to `Settings -> ADB` and check `Use custom Android SDK tools`
-4. Then provide in the box below the location of the `ADK`/`Android SDK`
+4. Then provide in the box below the location of the `ADK` / `Android SDK`
   * On macOS/Linux the path should look something like `/Users/user_name/Library/Android/sdk`
 
 ### Install the Snapseed APK on the VM
