@@ -48,9 +48,9 @@ Since we used Genymotion, well show you how to set it up
 1. Go into the settings on the VM
 2. Scroll down to the `about phone`
 3. Scroll down to `build number`
-4. Tab build number about 10
-5. There will be a message saying that you have enabled developer options
-5. Go back to the settings page and you will see the developeroptions menu
+4. Tab `build number` about 10
+5. There will be a message saying that `you have enabled developer options`
+5. Go back to the settings page and you will see the `developer options` menu
 6. Open the developer options, and enable `USB debugging`
 7. Install adb and fastboot into the `scripts` folder
 
