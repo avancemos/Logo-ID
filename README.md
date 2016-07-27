@@ -1,5 +1,5 @@
 # Main
-Identifying and Replacing Given Objects in an Image
+Removing Given Logos in Images
 
 ## Dependencies
 
