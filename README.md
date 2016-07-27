@@ -1,4 +1,4 @@
-# Main
+# rmv
 Removing Given Logos in Images
 
 ## Dependencies
@@ -12,7 +12,7 @@ Removing Given Logos in Images
 
 ### Clone our repo
 
-    git clone git@github.com:avancemos/main.git
+    git clone git@github.com:avancemos/rmv.git
 
 ### Download and setup an android emulator for your platform
 
@@ -54,20 +54,20 @@ Since we used Genymotion, well show you how to set it up
 6. Open the developer options, and enable `USB debugging`
 7. Install adb and fastboot into the `scripts` folder
 
-Run in terminal on macOS and Linux
+Run in terminal:
+
+On macOS:
+
+    unzip /PATH/to/rmv/scripts/Android.zip
+    ./PATH/TO/rmv/scripts/ADB-Install-Linux.sh
+    mv /PATH/TO/rmv/scripts/Android/Mac/* /PATH/TO/rmv/scripts/
+
+On Linux:
 
     sudo apt-get install unzip
-    unzip Android.zip -d /PATH/TO/main/scripts/
-
-On macOS
-
-    ./PATH/TO/main/scripts/ADB-Install-Linux.sh
-    mv /PATH/TO/main/scripts/Android/Mac/* /PATH/TO/main/scripts/
-
-On Linux
-
-    ./PATH/TO/main/scripts/ADB-Install-Mac.sh
-    mv /PATH/TO/main/scripts/Android/Mac/* /PATH/TO/main/scripts/
+    unzip Android.zip -d /PATH/TO/rmv/scripts/
+    ./PATH/TO/rmv/scripts/ADB-Install-Mac.sh
+    mv /PATH/TO/rmv/scripts/Android/Mac/* /PATH/TO/rmv/scripts/
 
 
 ### Setup Google Cloud Vision API with you account
