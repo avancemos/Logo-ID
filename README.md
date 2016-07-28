@@ -8,7 +8,7 @@ Removing Given Logos in Images
 2. [Android Studio](https://developer.android.com/studio/index.html) (Or at least just the ADK)
 3. Ability to use [Google Cloud Vision API](https://cloud.google.com/vision/). They offer a free trial and have a free option for personal use, but you have to have a mail address and there are a bunch of other restrictions :disappointed_relieved:
 
-## Getting started
+## Setting Up
 
 ### Clone our repo
 
@@ -79,6 +79,19 @@ Still working on how to get this to work for people other than me
 When selecting your image and sub-image, there are a few things to keep in mind:
  1. You should pick an image where the subimage is clearly visiable and is not obscured
  2. The subimage should be somthing that is able to be recognized by Google Cloud Vision
+
+## Running the script
+
+1. Open the Android Emulator
+
+
+    cd /PATH/TO/rmv/scripts
+    ./1080.sh
+
+2. If `./1080.sh` doesn't work:
+
+
+    chmod +x 1080.sh
 
 
 ### **Note that this is not yet finished**
