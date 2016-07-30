@@ -85,12 +85,11 @@ When selecting your image and sub-image, there are a few things to keep in mind:
 1. Open the Android Emulator
 
 
-
     cd /PATH/TO/rmv/scripts
     ./1080.sh
 
-2. If `./1080.sh` doesn't work:
 
+2. If `./1080.sh` doesn't work:
 
 
     chmod +x 1080.sh
