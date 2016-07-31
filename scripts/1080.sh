@@ -1,10 +1,15 @@
 
-mkdir -p /sdcard/avancemos/img
+# mkdir -p /sdcard/avancemos/img
 
 # count = "(echo ls -l ../img | wc -l)"
 #
 # for i in $(seq 0 count);
 # do
+
+# ./adb shell rm -r /sdcard/Download/*
+# ./adb shell rm -r /sdcard/Snapseed/*
+
+sleep 10
 
 ./adb push ../img/example.jpg /sdcard/Download
 
@@ -59,4 +64,6 @@ sleep 1
 ./adb shell input tap 772 131
 sleep 1
 
-./adb pull /sdcard/Snapseed/example-01.jpeg ../out/
+./adb pull /sdcard/Snapseed/* ../out/
+
+./adb shell am force-stop com.niksoftware.snapseed
