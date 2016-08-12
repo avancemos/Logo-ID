@@ -12,7 +12,9 @@ Removing Given Logos in Images
 
 ### Clone our repo
 
+```
     git clone git@github.com:avancemos/rmv.git
+```
 
 ### Download and setup an android emulator for your platform
 
@@ -58,16 +60,20 @@ Run in terminal:
 
 On macOS:
 
+```
     unzip /PATH/to/rmv/scripts/Android.zip
     ./PATH/TO/rmv/scripts/ADB-Install-Linux.sh
     mv /PATH/TO/rmv/scripts/Android/Mac/* /PATH/TO/rmv/scripts/
+```
 
 On Linux:
 
+```
     sudo apt-get install unzip
     unzip Android.zip -d /PATH/TO/rmv/scripts/
     ./PATH/TO/rmv/scripts/ADB-Install-Mac.sh
     mv /PATH/TO/rmv/scripts/Android/Mac/* /PATH/TO/rmv/scripts/
+```
 
 
 ### Setup Google Cloud Vision API with you account
@@ -84,16 +90,16 @@ When selecting your image and sub-image, there are a few things to keep in mind:
 
 1. Open the Android Emulator
 
-
+```
     cd /PATH/TO/rmv/scripts
     ./1080.sh
-
+```
 
 2. If `./1080.sh` doesn't work:
 
-
+```
     chmod +x 1080.sh
-
+```
 
 ### **Note that this is not yet finished**
 
